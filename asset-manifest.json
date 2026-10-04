@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Project6-Full-Stack-Front/static/css/main.29d7d699.css",
+    "main.js": "/Project6-Full-Stack-Front/static/js/main.bd66404e.js",
+    "static/media/Hero.jfif": "/Project6-Full-Stack-Front/static/media/Hero.32e07e03d83bd2ec5505.jfif",
+    "index.html": "/Project6-Full-Stack-Front/index.html",
+    "main.29d7d699.css.map": "/Project6-Full-Stack-Front/static/css/main.29d7d699.css.map",
+    "main.bd66404e.js.map": "/Project6-Full-Stack-Front/static/js/main.bd66404e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29d7d699.css",
+    "static/js/main.bd66404e.js"
+  ]
+}
