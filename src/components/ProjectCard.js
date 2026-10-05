@@ -41,11 +41,11 @@ function ProjectCard(props) {
                 {/* Buttons */}
                 <div className="project-buttons">
 
-                    <button>
+                    <button onClick={() => window.open(props.projectLink, "_blank")}>
                         View Project
                     </button>
 
-                    <button>
+                    <button onClick={() => window.open(props.githubLink, "_blank")}>
                         GitHub
                     </button>
 

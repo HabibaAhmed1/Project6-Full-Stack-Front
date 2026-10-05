@@ -31,7 +31,9 @@ function Projects() {
             category: "Tailwind",
             description:
                 "A modern space exploration website.",
-            image: p1
+            image: p1,
+            projectLink: " https://habibaahmed1.github.io/Project3-Full-Stack-Front/",
+            githubLink: "https://github.com/habibaahmed1/Project3-Full-Stack-Front"
         },
 
         {
@@ -40,7 +42,9 @@ function Projects() {
             category: "CSS",
             description:
                 "A beautiful travel planning website.",
-            image: p2
+            image: p2,
+            projectLink: "https://habibaahmed1.github.io/Project2-Full-Stack-Front/",
+            githubLink: "https://github.com/habibaahmed1/Project2-Full-Stack-Front"
         },
 
         {
@@ -49,7 +53,10 @@ function Projects() {
             category: "Tailwind",
             description:
                 "A healthy eating application.",
-            image: p3
+            image: p3,
+            projectLink: "https://habibaahmed1.github.io/Project5-Full-Stack-Front/",
+            githubLink: "https://github.com/habibaahmed1/Project5-Full-Stack-Front"
+        
         }
 
     ];
@@ -156,8 +163,10 @@ function Projects() {
                             }
 
                             image={project.image}
+                            projectLink={project.projectLink}
+                            githubLink={project.githubLink}
                         />
-
+                        
                     )
                 )}
 
