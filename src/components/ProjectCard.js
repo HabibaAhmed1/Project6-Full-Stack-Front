@@ -5,15 +5,24 @@ function ProjectCard(props) {
     return (
         <div className="project-card">
 
+            {/* Laptop Mockup */}
             <div className="project-image">
 
-                <span>
-                    &lt;/&gt;
-                </span>
+                <div className="laptop">
+                    <div className="laptop-screen">
+                        <img
+                            src={props.image}
+                            alt={props.title}
+                        />
+                    </div>
+
+                    <div className="laptop-base"></div>
+                </div>
 
             </div>
 
 
+            {/* Project Content */}
             <div className="project-content">
 
                 <span className="project-category">
@@ -29,6 +38,7 @@ function ProjectCard(props) {
                 </p>
 
 
+                {/* Buttons */}
                 <div className="project-buttons">
 
                     <button>
@@ -48,3 +58,4 @@ function ProjectCard(props) {
 }
 
 export default ProjectCard;
+

@@ -10,8 +10,8 @@ function Hero() {
 
     const words = [
         "Front-End Developer",
-        "React Developer",
-        "UI/UX Enthusiast"
+        "React Engineer",
+        "AI Enthusiast",
     ];
 
     useEffect(() => {
@@ -74,9 +74,10 @@ function Hero() {
             using modern web technologies.
         </p>
 
-        <button className="hero-btn">
+        <a href="#contact" className="hero-btn">
             Get in Touch
-        </button>
+        </a>
+        
 
     </div>
 

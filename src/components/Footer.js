@@ -50,21 +50,25 @@ function Footer() {
 
                 <div className="footer-social">
 
-                    <a
-                        href="#"
-                        aria-label="GitHub"
-                    >
-                        GitHub
-                    </a>
+    <a
+        href="https://github.com/HabibaAhmed1"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="GitHub"
+    >
+        GitHub
+    </a>
 
-                    <a
-                        href="#"
-                        aria-label="LinkedIn"
-                    >
-                        LinkedIn
-                    </a>
+    <a
+        href="https://www.linkedin.com/in/habiba-alhanbly888/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="LinkedIn"
+    >
+        LinkedIn
+    </a>
 
-                </div>
+</div>
 
             </div>
 

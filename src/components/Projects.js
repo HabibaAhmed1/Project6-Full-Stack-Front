@@ -1,5 +1,7 @@
 import React from "react";
-
+import p1 from "./images/p1.png";
+import p2 from "./images/p2.png";
+import p3 from "./images/p3.png";
 import ProjectCard from "./ProjectCard";
 
 import {
@@ -25,35 +27,29 @@ function Projects() {
 
         {
             id: 1,
-
             title: "Space Explorer",
-
             category: "Tailwind",
-
             description:
-                "A modern space exploration website."
+                "A modern space exploration website.",
+            image: p1
         },
 
         {
             id: 2,
-
             title: "Travel Website",
-
-            category: "Tailwind",
-
+            category: "CSS",
             description:
-                "A beautiful travel planning website."
+                "A beautiful travel planning website.",
+            image: p2
         },
 
         {
             id: 3,
-
             title: "Health Food",
-
-            category: "CSS",
-
+            category: "Tailwind",
             description:
-                "A healthy eating application."
+                "A healthy eating application.",
+            image: p3
         }
 
     ];
@@ -69,6 +65,7 @@ function Projects() {
 
 
     return (
+
         <section
             className="projects-section"
             id="projects"
@@ -103,9 +100,7 @@ function Projects() {
                             : ""
                     }
                     onClick={() =>
-                        dispatch(
-                            setFilter("All")
-                        )
+                        dispatch(setFilter("All"))
                     }
                 >
                     All
@@ -119,9 +114,7 @@ function Projects() {
                             : ""
                     }
                     onClick={() =>
-                        dispatch(
-                            setFilter("Tailwind")
-                        )
+                        dispatch(setFilter("Tailwind"))
                     }
                 >
                     Tailwind
@@ -135,9 +128,7 @@ function Projects() {
                             : ""
                     }
                     onClick={() =>
-                        dispatch(
-                            setFilter("CSS")
-                        )
+                        dispatch(setFilter("CSS"))
                     }
                 >
                     CSS
@@ -163,6 +154,8 @@ function Projects() {
                             description={
                                 project.description
                             }
+
+                            image={project.image}
                         />
 
                     )
@@ -171,7 +164,9 @@ function Projects() {
             </div>
 
         </section>
+
     );
 }
+
 
 export default Projects;
